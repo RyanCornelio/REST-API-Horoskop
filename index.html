@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope</title>
+    <script defer src="logic.js"></script>
+    <link rel="stylesheet" href="/style.css">
+
+
+</head>
+<body>
+
+<div class="container">
+    <h1>Horoscope</h1>
+    <h3>Whats your sign?</h3>
+    <input id ="dateInput" type="date">
+    <button id="save" type="button" onclick="addHoroscope()">Save</button>
+    <button id="update" type="button" onclick="updateHoroscope()">Update</button>
+    <button id="delete" type="button" onclick="deleteHoroscope()">Delete</button>
+    <h1>
+    <div id="showSign"></div>
+    </h1>
+</div>
+    
+
+</body>
+</html>
